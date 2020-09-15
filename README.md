@@ -4,6 +4,7 @@
 -윈도우에서 리눅스 환경 설치
 
 1. 윈도우 최신 버전으로 업데이트
+ - 제어판 -> 프로그램 기능 -> windows 기능 켜기/끄기 -> Linux 용 windows 하위 시스템 체크
 2. MicroSoft Store에서 Terminal, Ubuntu 20.04 LTS 설치
 3. Terminal 접속 후 settings 접속
 4. "defaultProfile" 에 설치한 Ubuntu guid 입력
