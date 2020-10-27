@@ -15,6 +15,7 @@
  - sudo vim .zshrc
  - ZSH_THEME="agnoster" 변경
 7. "schemes" 에 아래 내용 입력
+###
 "schemes": [
         {
              "background" : "#002B36",
@@ -38,7 +39,8 @@
              "yellow" : "#B58900"
         }
     ],
-    
+###
+
 우분투 "guid"에 아래 내용처럽 바꾸삼333
 ###
 "guid": "{07b52e3e-de2c-5db4-bd2d-ba144ed6c273}",
