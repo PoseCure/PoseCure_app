@@ -7,7 +7,7 @@
  - 제어판 -> 프로그램 기능 -> windows 기능 켜기/끄기 -> Linux 용 windows 하위 시스템, Hyper-V 체크
 2. MicroSoft Store에서 Terminal, Ubuntu 20.04 LTS 설치
 3. Terminal 접속 후 settings 접속
-4. "defaultProfile" 에 설치한 Ubuntu guid 입력
+4. "defaultProfile" 에 설치한 Ubuntu guid 입력 //하단에 보면 있음 ㅎㅎ
 5. ZSH 설치
  - sudo apt-get install zsh -> 재부팅
  - sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
@@ -41,9 +41,9 @@
 
 8. 폰트 설정, https://github.com/powerline/fonts.git
  - 해당 사이트 접속 후 code -> download zip
- - 압축 해제 후 원하는 폰트 설치
+ - 압축 해제 후 DejaVu Sans Mono Powerline 설치
  - termianl -> setting -> defaults
-           "fontFace":"설치한 폰트 이름",
+           "fontFace":"DejaVu Sans Mono Powerline",
            "fontSize":12
            
 ###### 위 설정을 하고 이상하다면 아래 내용을 setting에 복붙하시오#####
