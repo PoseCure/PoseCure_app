@@ -38,6 +38,15 @@
              "yellow" : "#B58900"
         }
     ],
+    
+우분투 "guid"에 아래 내용처럽 바꾸삼333
+############
+"guid": "{07b52e3e-de2c-5db4-bd2d-ba144ed6c273}",
+                "hidden": false,
+                "name": "Ubuntu-20.04",
+                "source": "Windows.Terminal.Wsl",
+	    "colorScheme": "wsl",
+############
 
 8. 폰트 설정, https://github.com/powerline/fonts.git
  - 해당 사이트 접속 후 code -> download zip
