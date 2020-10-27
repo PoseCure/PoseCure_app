@@ -15,39 +15,43 @@
  - sudo vim .zshrc
  - ZSH_THEME="agnoster" 변경
 7. "schemes" 에 아래 내용 입력
-###아래 내용###
-"schemes": [
-        {
-             "background" : "#002B36",
-             "black" : "#002B36",
-             "blue" : "#268BD2",
-             "brightBlack" : "#657B83",
-             "brightBlue" : "#839496",
-             "brightCyan" : "#D33682",
-             "brightGreen" : "#B58900",
-             "brightPurple" : "#EEE8D5",
-             "brightRed" : "#CB4B16",
-             "brightWhite" : "#FDF6E3",
-             "brightYellow" : "#586E75",
-             "cyan" : "#2AA198",
-             "foreground" : "#93A1A1",
-             "green" : "#859900",
-             "name" : "wsl",
-             "purple" : "#6C71C4",
-             "red" : "#DC322F",
-             "white" : "#93A1A1",
-             "yellow" : "#B58900"
-        }
-    ],
-###여기까지
+###
+{
+	"schemes": [
+		{
+		     "background" : "#002B36",
+		     "black" : "#002B36",
+		     "blue" : "#268BD2",
+		     "brightBlack" : "#657B83",
+		     "brightBlue" : "#839496",
+		     "brightCyan" : "#D33682",
+		     "brightGreen" : "#B58900",
+		     "brightPurple" : "#EEE8D5",
+		     "brightRed" : "#CB4B16",
+		     "brightWhite" : "#FDF6E3",
+		     "brightYellow" : "#586E75",
+		     "cyan" : "#2AA198",
+		     "foreground" : "#93A1A1",
+		     "green" : "#859900",
+		     "name" : "wsl",
+		     "purple" : "#6C71C4",
+		     "red" : "#DC322F",
+		     "white" : "#93A1A1",
+		     "yellow" : "#B58900"
+		}
+	    ],
+}
+###
 
 우분투 "guid"에 아래 내용처럽 바꾸삼333
 ###
-"guid": "{07b52e3e-de2c-5db4-bd2d-ba144ed6c273}",
-                "hidden": false,
-                "name": "Ubuntu-20.04",
-                "source": "Windows.Terminal.Wsl",
-	    "colorScheme": "wsl",
+{
+	"guid": "{07b52e3e-de2c-5db4-bd2d-ba144ed6c273}",
+			"hidden": false,
+			"name": "Ubuntu-20.04",
+			"source": "Windows.Terminal.Wsl",
+		    "colorScheme": "wsl",
+}
 ###
 
 8. 폰트 설정, https://github.com/powerline/fonts.git
